@@ -1,0 +1,7 @@
+version: '2'
+
+tasks:
+  go:
+    cmds:
+      - protoc --go_out=plugins=gprc,import_path=proto:go workflowproto/*.proto
+
