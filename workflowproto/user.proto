@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 service User {
-    rpc Get(GetUserRequest) returns (UserResponse) {}
+    rpc GetUser(GetUserRequest) returns (UserResponse) {}
 }
 
 message GetUserRequest {
